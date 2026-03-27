@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmed Eleawa</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- icons -->
+    <script src="https://kit.fontawesome.com/139efe10dc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+        </ul>
+        <ul>
+            <li id="github"><a class="fa fa-github" href="https://github.com/Eleawa/" aria-label="Github"></a></li>
+            <li id="linkedin"><a class="fa fa-linkedin"  href="https://www.linkedin.com/in/ahmed-eleawa/" aria-label="linkedin"></a></li>
+            <li id="email"><a class="fa fa-envelope" href="mailto:eleawap@gmail.com" aria-label="Email"></a></li>
+        </ul>
+    </nav>
+    <section id="home" class="hero">
+        <h1 id="typing"></h1>
+        <h2>I'm Ahmed Eleawa</h2>
+        <p>Software Engineer / Data Scientist</p>
+    </section>
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <div class="about-block">
+            <h3>AI R&D</h3>
+            <p>
+                I focus on artificial intelligence research and development, particularly deep learning and model behavior.
+                I enjoy exploring how learning systems work, experimenting with ideas, and building intelligent systems that
+                can generalize and adapt.
+            </p>
+        </div>
+        <div class="about-block">
+            <h3>Low-Level & Systems</h3>
+            <p>
+                I’m interested in low-level programming, performance, and how software interacts with hardware.
+                I work with languages like C and Rust, and I’m exploring areas such as memory management, concurrency,
+                and GPU computation.
+            </p>
+        </div>
+        <div class="about-block">
+            <h3>Software Engineering</h3>
+            <p>
+                I build backend systems and applications with a focus on clean architecture, scalability, and efficiency.
+                I enjoy designing structured, maintainable systems and connecting high-level logic with practical implementations.
+            </p>
+        </div>
+    </section>
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <div class="skills-list">
+            <a class="skill" href="https://www.python.org/" target="_blank">Python</a>
+            <a class="skill" href="https://www.sqlite.org/index.html" target="_blank">SQL</a>
+            <a class="skill" href="https://en.cppreference.com/w/c" target="_blank">C</a>
+            <a class="skill" href="https://en.cppreference.com/w/cpp" target="_blank">C++</a>
+            <a class="skill" href="https://www.rust-lang.org/" target="_blank">Rust</a>
+            <a class="skill" href="https://developer.nvidia.com/cuda-zone" target="_blank">CUDA</a>
+            <a class="skill" href="https://numpy.org/" target="_blank">Numpy</a>
+            <a class="skill" href="https://pandas.pydata.org/" target="_blank">Pandas</a>
+            <a class="skill" href="https://scikit-learn.org/" target="_blank">Scikit-learn</a>
+            <a class="skill" href="https://pytorch.org/" target="_blank">Pytorch</a>
+            <a class="skill" href="https://www.tensorflow.org/" target="_blank">TensorFlow</a>
+            <a class="skill" href="https://www.langchain.com/" target="_blank">LangChain</a>
+            <a class="skill" href="https://matplotlib.org/" target="_blank">Matplotlib</a>
+            <a class="skill" href="https://seaborn.pydata.org/" target="_blank">Seaborn</a>
+            <a class="skill" href="https://redis.io/" target="_blank">Redis</a>
+            <a class="skill" href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">HTML/CSS</a>
+            <a class="skill" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">JavaScript</a>
+            <a class="skill" href="https://fastapi.tiangolo.com/" target="_blank">FastAPI</a>
+            <a class="skill" href="https://flask.palletsprojects.com/" target="_blank">Flask</a>
+            <a class="skill" href="https://www.djangoproject.com/" target="_blank">Django</a>
+        </div>
+    </section>
+    <section id="projects" class="projects">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <div class="project">
+            <h3>EUROSAT Land Type Classification</h3>
+            <p>
+                A deep learning-based image classification system built on the EuroSAT dataset to identify land-use categories
+                from satellite imagery. The project applies convolutional neural networks to extract spatial features and
+                classify different terrain types.
+            </p>
+            <p>
+                The system focuses on data preprocessing, model training, and evaluation, exploring how deep learning models
+                learn representations from high-dimensional visual data and generalize across different land patterns.
+            </p>
+            <p><strong>Focus:</strong> Image classification, representation learning</p>
+            <p><strong>Stack:</strong> Python, PyTorch, Computer Vision</p>
+        </div>
+          <div class="project">
+              <h3>Wav2Lip + AnimateDiff Pipeline</h3>
+              <p>
+                  A custom pipeline combining Wav2Lip and AnimateDiff to generate synchronized lip movements
+                  and animated video outputs from audio inputs. The system integrates speech-driven facial
+                  animation with generative diffusion models to produce temporally coherent and realistic results.
+              </p>
+              <p>
+                  The pipeline focuses on aligning audio features with visual generation while maintaining
+                  consistency across frames, exploring the intersection of audio-visual synchronization and
+                  generative modeling techniques.
+              </p>
+              <p><strong>Focus:</strong> Audio-visual synchronization, generative video models</p>
+              <p><strong>Stack:</strong> Python, PyTorch, Diffusion Models, Audio Processing</p>
+          </div>
+      </div>
+    </section>
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <p>If you’d like to get in touch, feel free to reach out via email:</p>
+        <p>
+            <a href="mailto:your.email@example.com">eleawap@gmail.com</a>
+        </p>
+    </section>
+    <footer>
+        <p>© 2026 Ahmed Eleawa</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
